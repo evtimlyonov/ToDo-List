@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    font-family: Poiret One;
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 45px;
+    text-align: center;
+    color: lightcoral;
+}
+
+#error {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.input-todo {
+    text-align: center;
+}
+
+input {
+    box-shadow: 0px 0px 0px 3px lightcoral;
+    border-radius: 15px;  
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 55px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+input:hover {
+    border: none;
+}
+
+
+.result ul{
+    font-size: 34px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-right: 35px;
+}
+
+.input-todo button {
+    position: absolute;
+    margin-left: -52px;
+    margin-top: 3px;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightcoral;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer button {
+    margin-top: 3px;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightcoral;
+}
